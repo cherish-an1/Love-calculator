@@ -1,0 +1,98 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat-Bold";
+  }
+  .container-fluid{
+    padding: 0 15%;
+  }
+  header {
+    background-color: #ff4c68;
+    color: #fff;
+  }
+  .navbar {
+    padding: 0 0 4.5rem;
+  }
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bolder;
+  }
+  .nav-item {
+    padding: 0 50px;
+    margin-left: 50px;
+  }
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+  }
+  section{
+    margin-top: 50px;
+  }
+  .cont {
+    background-image: url('heart-hands.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .btnIcon {
+    width: 80px;
+    padding: 10px;
+}
+#gifImages{
+    
+}
+  #explanation, #resultNumber {
+    visibility: hidden;
+    font-family: "Titan One";
+    padding-top: 20px;
+    line-height: 3rem;
+    text-align: center;
+    margin: auto;
+}
+
+#explanation {
+    color: #FFAEAE;
+    font-size: 2rem;
+}
+
+#resultNumber {
+    font-size: 4rem;
+}
+
+#tryAgain {
+    font-family: "Roboto Mono";
+    visibility: hidden;
+    margin-top: 100px;
+    font-size: 1.8rem;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 50%;
+    color: white;
+    margin-left: 30%;
+}
+
+@media screen and (min-width: 700px){
+    p,
+    h1 {
+      text-align: center;
+      justify-content: center;
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+    .cont {
+      width: 400px;
+      height: 250px;
+      margin-left: 450px;
+    }
+    .button {
+      width: 100%;
+      margin-left: 10px;
+    }
+    .form-control {
+      width: 10%;
+    }
+    #tryAgain {
+        margin-left: 45%;
+    }
+  }
+  

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu" rel="stylesheet">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>heyy</title>
+    </head>
+    <body>
+        <header>
+            <div class="container-fluid">
+                 <!-- Nav Bar -->
+    
+          <nav class="navbar navbar-expand-lg navbar-dark">
+    
+            <a class="navbar-brand" href="">LoVe DoKiTa </a>
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Love Calculator</a>
+                </li>
+              </ul>
+    
+            </div>
+          </nav>
+            </div>
+        </header>
+
+        <section style="margin-left: 20px;" id="textSection">
+            <h1>Welcome to the great invention of <b>Love dokita!!!!</b></h1>
+            <br>
+            <p>To find out what the chances for you and your dream partner are, just fill in both names ("your name" and "crush name") in the two text boxes below. And press calculate</p>
+          </section>
+
+          
+          <section class="main">
+        <div class="card w-100  text-center ">
+                <div class="card-header bg-danger text-white">LOVE CALCULATOR</div>
+            <span class="hideForResult">
+                <div class="card-body">
+
+                    <div class="cont">
+                    <form class="form-inline w-50 m-auto text-center">
+      
+                    <div class="form-group">
+                     <input type="text" name="yourName" class="form-control text-center" placeholder="YourName" id="yourName" required> 
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="pl-5 pr-4 text-center">
+                     <span> + </span>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="form-group">
+                     <input type="text" name="crushName" class="form-control text-center" placeholder="CrushName" id="crushName" required>
+                    </div>
+                  </form> 
+                  </div>
+                    <button type="button"><img src="heart.png" onclick="checkLovePercent()" class="btnIcon"></button>
+                    
+                    </div>
+            </span>
+
+            <div id="resultNumber"></div>
+            <div class="gifImages text-center w-100" id="gifImages"></div>
+            
+        </div>
+        </div>
+            <div id="explanation"></div>
+            <button id="tryAgain"><a href="index.html">Try Again?</a></button>
+          </section>
+
+          <footer style="background-color: #ff4c68; text-align: center; height: 50px; margin-top: 50px;">
+            <p>&copy; love dokita 2020</p>
+            </footer>
+
+          
+          
+        <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    </body>
+</html>
